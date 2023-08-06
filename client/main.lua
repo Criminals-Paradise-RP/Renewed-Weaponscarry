@@ -71,7 +71,6 @@ local props = {
 	["weapon_m9"]            = { model = "w_pi_m9", hash = joaat("weapon_m9"), tier = 1 },
 	["weapon_beanbagshotgun"] = { model = "w_sg_beanbagshotgun", hash = joaat("weapon_beanbagshotgun"), tier = 1 },
 
-
 	-- tier2
 	["weapon_bats"]      = { model = "w_me_baseball_bat_barbed", hash = joaat("weapon_bats"), tier = 2 },
 	["weapon_katana"]    = { model = "katana_sheath", hash = joaat("weapon_katana"), tier = 2, zr = -90.0, xr = -40.0,
@@ -98,8 +97,20 @@ local props = {
 		yr = 0.0, zr = -265.0, blockAttack = true, blockCar = true, blockRun = true },
 	["microwave"]      = { carry = true, model = "prop_microwave_1", bone = 24817, x = -0.20, y = 0.43, z = 0.05, xr = 91.0,
 		yr = 0.0, zr = -265.0, blockAttack = true, blockCar = true, blockRun = true },
-
+	["flatscreen"]     = { carry = true, model = "prop_tv_flat_03b", bone = 24817, x = -0.20, y = 0.43, z = 0.05, xr = 91.0,
+		yr = 0.0, zr = -265.0, blockAttack = true, blockCar = true, blockRun = true },
+	["tablet"]     = { carry = true, model = "prop_cs_tablet_02", bone = 18905, x = 0.15, y = 0.0, z = 0.1, xr = 135.0,
+		yr = -565.0, zr = -435.0, blockAttack = true, blockCar = true, blockRun = true },
 }
+
+local hash = GetHashKey("prop_cs_tablet_02")
+RequestModel(hash)
+while not HasModelLoaded(hash) do
+    Citizen.Wait(100)
+    RequestModel(hash)
+end
+local prop = CreateObject(hash, GetEntityCoords(PlayerPedId()), true, true, true)
+AttachEntityToEntity(prop, PlayerPedId(), GetPedBoneIndex(PlayerPedId(), 18905), 0.15, 0.0, 0.1, 135.0, -565.0, -435.0, true, true, false, false, 1, true)
 
 local items_attatched = {}
 local itemSlots = {}
