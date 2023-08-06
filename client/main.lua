@@ -68,7 +68,6 @@ local props = {
 	["weapon_mk14"]          = { model = "w_sr_mk14", hash = joaat("weapon_mk14"), tier = 1 },
 	["weapon_mac10"]         = { model = "w_sb_mac10", hash = joaat("weapon_mac10"), tier = 1 },
 	["weapon_m70"]           = { model = "w_ar_m70", hash = joaat("weapon_m70"), tier = 1 },
-	["weapon_m9"]            = { model = "w_pi_m9", hash = joaat("weapon_m9"), tier = 1 },
 	["weapon_beanbagshotgun"] = { model = "w_sg_beanbagshotgun", hash = joaat("weapon_beanbagshotgun"), tier = 1 },
 
 	-- tier2
