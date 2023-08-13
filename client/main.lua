@@ -45,6 +45,10 @@ local props = {
 
 	-- meth
 	["meth"] = { model = "hei_prop_pill_bag_01", hash = joaat("hei_prop_pill_bag_01"), tier = 3 },
+	["crack_baggy"] = { model = "hei_prop_pill_bag_01", hash = joaat("hei_prop_pill_bag_01"), tier = 3 },
+	["cokebaggy"] = { model = "hei_prop_pill_bag_01", hash = joaat("hei_prop_pill_bag_01"), tier = 3 },
+	["morphinebaggy"] = { model = "hei_prop_pill_bag_01", hash = joaat("hei_prop_pill_bag_01"), tier = 3 },
+	["heroinbaggy"] = { model = "hei_prop_pill_bag_01", hash = joaat("hei_prop_pill_bag_01"), tier = 3 },
 
 	-- Contraband
 	["markedbills"] = { model = "prop_money_bag_01", hash = joaat("prop_money_bag_01"), tier = 3, x = -0.47, zr = 0 }, -- If you put any x,y,z,xr,yr,zr it will offset it from the slots to make it fit perfectly
