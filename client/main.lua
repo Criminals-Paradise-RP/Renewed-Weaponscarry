@@ -53,7 +53,7 @@ local props = {
 	-- Contraband
 	["markedbills"] = { model = "prop_money_bag_01", hash = joaat("prop_money_bag_01"), tier = 3, x = -0.47, zr = 0 }, -- If you put any x,y,z,xr,yr,zr it will offset it from the slots to make it fit perfectly
 
-	-- Custom Weapons Tier 1
+-- Custom Weapons Tier 1
 	["weapon_assaultrifle"]  = { model = "w_ar_assaultrifle", hash = joaat("weapon_assaultrifle"), tier = 1 },
 	["weapon_carbinerifle"]  = { model = "w_ar_carbinerifle", hash = joaat("weapon_carbinerifle"), tier = 1 },
 	["weapon_advancedrifle"] = { model = "w_ar_advancedrifle", hash = joaat("weapon_advancedrifle"), tier = 1 },
@@ -73,6 +73,7 @@ local props = {
 	["weapon_mac10"]         = { model = "w_sb_mac10", hash = joaat("weapon_mac10"), tier = 1 },
 	["weapon_m70"]           = { model = "w_ar_m70", hash = joaat("weapon_m70"), tier = 1 },
 	["weapon_beanbagshotgun"] = { model = "w_sg_beanbagshotgun", hash = joaat("weapon_beanbagshotgun"), tier = 1 },
+	["weapon_ar15"] = { model = "w_ar_ar15", hash = joaat("weapon_ar15"), tier = 1 },
 
 	-- tier2
 	["weapon_bats"]      = { model = "w_me_baseball_bat_barbed", hash = joaat("weapon_bats"), tier = 2 },
