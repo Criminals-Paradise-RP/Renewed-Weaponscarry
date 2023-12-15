@@ -103,8 +103,8 @@ local props = {
 		yr = 0.0, zr = -265.0, blockAttack = true, blockCar = true, blockRun = true },
 	["flatscreen"]     = { carry = true, model = "prop_tv_flat_03b", bone = 24817, x = -0.20, y = 0.43, z = 0.05, xr = 91.0,
 		yr = 0.0, zr = -265.0, blockAttack = true, blockCar = true, blockRun = true },
-	["tablet"]     = { carry = true, model = "prop_cs_tablet_02", bone = 18905, x = 0.15, y = 0.0, z = 0.1, xr = 135.0,
-		yr = -565.0, zr = -435.0, blockAttack = true, blockCar = true, blockRun = true },
+	-- ["tablet"]     = { carry = true, model = "prop_cs_tablet_02", bone = 18905, x = 0.15, y = 0.0, z = 0.1, xr = 135.0,
+	-- 	yr = -565.0, zr = -435.0, blockAttack = true, blockCar = true, blockRun = true },
 }
 
 local hash = GetHashKey("prop_cs_tablet_02")
